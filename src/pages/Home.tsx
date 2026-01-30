@@ -117,7 +117,7 @@ export const Home = () => {
         </section>
 
         {/* Testimonials */}
-        <section className="py-16 bg-brand-light">
+        <section className="py-16 bg-brand-light mb-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-black">Why Students Choose JINC - Jodhpur</h2>
@@ -144,29 +144,7 @@ export const Home = () => {
           </div>
         </section>
 
-        {/* Infrastructure & Stats */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-3 gap-8">
-              {home.infrastructure.map((item, idx) => (
-                <div key={idx} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all group border border-brand-border">
-                  <div className="h-48 overflow-hidden">
-                    <img 
-                      src={item.image} 
-                      alt={item.title} 
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-black mb-3">{item.title}</h3>
-                    <p className="text-brand-secondary text-sm leading-relaxed">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        {/* Removed Infrastructure & Stats Section as requested */}
       </div>
     </>
   );

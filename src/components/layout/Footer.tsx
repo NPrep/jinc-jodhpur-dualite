@@ -1,6 +1,6 @@
 import React from 'react';
 import { siteContent } from '../../data/siteContent';
-import { Phone, AlertCircle } from 'lucide-react';
+import { Phone } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -11,7 +11,7 @@ export const Footer = () => {
              {/* Logo in Footer */}
             <div className="mb-6">
                <img 
-                src="https://img-wrapper.vercel.app/image?url=https://placehold.co/150x50/111827/F72685?text=JINC+JODHPUR&font=montserrat" 
+                src="https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://placehold.co/150x50/111827/F72685?text=JINC+JODHPUR&font=montserrat" 
                 alt="JINC Jodhpur" 
                 className="h-10 w-auto object-contain" 
               />
@@ -40,25 +40,11 @@ export const Footer = () => {
             <p className="text-gray-300 text-sm leading-relaxed mb-4">
               JINC is India's premier nursing coaching institute, dedicated to shaping the future of nursing professionals with top-notch education and guidance.
             </p>
-            
-            <div className="bg-gray-800 p-4 rounded-lg border border-gray-700">
-              <div className="flex items-start gap-2 text-yellow-500 mb-1">
-                <AlertCircle size={16} className="mt-0.5" />
-                <span className="font-bold text-xs uppercase">Disclaimer</span>
-              </div>
-              <p className="text-xs text-gray-400">
-                This website is not an official portal. It is a help portal regarding nursing exams and preparation resources.
-              </p>
-            </div>
           </div>
         </div>
         
         <div className="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">© 2026 All Rights Reserved</p>
-          <div className="flex items-center gap-2 text-gray-500 text-sm">
-            <span>In association with</span>
-            <span className="font-bold text-white">NPrep</span>
-          </div>
         </div>
       </div>
     </footer>
