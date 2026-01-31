@@ -11,9 +11,9 @@ export const Footer = () => {
              {/* Logo in Footer */}
             <div className="mb-6">
                <img 
-                src="https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://placehold.co/150x50/111827/F72685?text=JINC+JODHPUR&font=montserrat" 
+                src="https://images.dualite.app/de7c7353-5b72-41c6-a07c-4a725f050847/Screenshot_2026-01-31_at_3.27.04_PM-73ebb22a-7c49-42a2-aa21-292f66e88d8b.webp" 
                 alt="JINC Jodhpur" 
-                className="h-10 w-auto object-contain" 
+                className="h-12 w-auto object-contain" 
               />
             </div>
             <div className="space-y-3 text-gray-300">

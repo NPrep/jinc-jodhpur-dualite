@@ -36,9 +36,9 @@ export const VacancyResults = () => {
             <div className="bg-white p-8 rounded-xl shadow-sm border border-brand-border sticky top-24">
               <div className="mb-6 flex justify-center">
                  <img 
-                  src="https://img-wrapper.vercel.app/image?url=https://placehold.co/150x150/white/F72685?text=JINC&font=montserrat" 
+                  src="https://images.dualite.app/de7c7353-5b72-41c6-a07c-4a725f050847/Screenshot_2026-01-31_at_3.27.04_PM-73ebb22a-7c49-42a2-aa21-292f66e88d8b.webp" 
                   alt="JINC Jodhpur" 
-                  className="h-24 w-24 object-contain rounded-full border-2 border-brand-border p-1" 
+                  className="h-24 w-auto object-contain rounded-lg p-1" 
                 />
               </div>
               <h2 className="text-2xl font-bold text-black mb-2 text-center">JINC JODHPUR</h2>

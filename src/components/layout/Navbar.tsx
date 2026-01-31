@@ -18,9 +18,8 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              {/* Replace the src below with the actual JINC Logo URL from Google */}
               <img 
-                src="https://img-wrapper.vercel.app/image?url=https://placehold.co/180x60/white/F72685?text=JINC+JODHPUR&font=montserrat" 
+                src="https://images.dualite.app/de7c7353-5b72-41c6-a07c-4a725f050847/Screenshot_2026-01-31_at_3.27.04_PM-73ebb22a-7c49-42a2-aa21-292f66e88d8b.webp" 
                 alt="JINC Jodhpur" 
                 className="h-12 w-auto object-contain" 
               />
