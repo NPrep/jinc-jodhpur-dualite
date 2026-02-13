@@ -22,7 +22,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   author,
   schema
 }) => {
-  const siteUrl = 'https://jinc-jodhpur-replica.com'; // Replace with actual domain
+  const siteUrl = 'https://jincjodhpur.com'; // Replace with actual domain
   const fullCanonical = canonicalUrl ? `${siteUrl}${canonicalUrl}` : siteUrl;
 
   return (
