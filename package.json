@@ -47,7 +47,19 @@
     "reactSnap":  {
                       "source":  "dist",
                       "include":  [
-                                      "/"
+                                      "/",
+                                      "/blog",
+                                      "/courses",
+                                      "/events",
+                                      "/free-demo-content",
+                                      "/freetest",
+                                      "/join-batch",
+                                      "/mock-tests",
+                                      "/offers-alters",
+                                      "/podcast",
+                                      "/selected-nursing-officers",
+                                      "/subject-tests",
+                                      "/vacancy-results"
                                   ],
                       "crawl":  true,
                       "inlineCss":  true,
