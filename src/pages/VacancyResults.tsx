@@ -35,11 +35,9 @@ export const VacancyResults = () => {
           <div className="lg:col-span-1">
             <div className="bg-white p-8 rounded-xl shadow-sm border border-brand-border sticky top-24">
               <div className="mb-6 flex justify-center">
-                 <img 
-                  src="https://images.dualite.app/de7c7353-5b72-41c6-a07c-4a725f050847/Screenshot_2026-01-31_at_3.27.04_PM-73ebb22a-7c49-42a2-aa21-292f66e88d8b.webp" 
-                  alt="JINC Jodhpur" 
-                  className="h-24 w-auto object-contain rounded-lg p-1" 
-                />
+                 <div className="w-20 h-20 bg-brand-light rounded-full flex items-center justify-center text-brand-pink font-bold text-4xl border-4 border-brand-pink/20">
+                    J
+                 </div>
               </div>
               <h2 className="text-2xl font-bold text-black mb-2 text-center">JINC JODHPUR</h2>
               <p className="text-brand-secondary text-sm mb-4 text-center">JINC Eductech Pvt. Ltd.</p>

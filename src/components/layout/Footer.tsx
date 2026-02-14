@@ -10,11 +10,9 @@ export const Footer = () => {
           <div>
              {/* Logo in Footer */}
             <div className="mb-6">
-               <img 
-                src="https://images.dualite.app/de7c7353-5b72-41c6-a07c-4a725f050847/Screenshot_2026-01-31_at_3.27.04_PM-73ebb22a-7c49-42a2-aa21-292f66e88d8b.webp" 
-                alt="JINC Jodhpur" 
-                className="h-12 w-auto object-contain" 
-              />
+               <span className="text-3xl font-bold text-white">
+                JINC <span className="text-brand-pink">Jodhpur</span>
+              </span>
             </div>
             <div className="space-y-3 text-gray-300">
               <div className="flex items-start gap-3">

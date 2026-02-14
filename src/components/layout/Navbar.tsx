@@ -18,11 +18,12 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              <img 
-                src="https://images.dualite.app/de7c7353-5b72-41c6-a07c-4a725f050847/Screenshot_2026-01-31_at_3.27.04_PM-73ebb22a-7c49-42a2-aa21-292f66e88d8b.webp" 
-                alt="JINC Jodhpur" 
-                className="h-12 w-auto object-contain" 
-              />
+              <div className="w-10 h-10 bg-brand-pink rounded-full flex items-center justify-center text-white font-bold text-xl">
+                J
+              </div>
+              <span className="text-2xl font-bold text-black tracking-tight">
+                JINC <span className="text-brand-pink">Jodhpur</span>
+              </span>
             </Link>
           </div>
 

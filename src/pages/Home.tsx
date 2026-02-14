@@ -20,7 +20,7 @@ export const Home = () => {
     "@type": "EducationalOrganization",
     "name": "JINC Jodhpur",
     "description": home.hero.heading,
-    "url": "https://jincjodhpur.com",
+    "url": "https://jinc-jodhpur-replica.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": siteContent.header.address,

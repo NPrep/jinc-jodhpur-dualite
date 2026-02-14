@@ -26,7 +26,7 @@ export const BlogPost = () => {
       "name": "JINC Jodhpur",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://jincjodhpur.com/logo.png"
+        "url": "https://jinc-jodhpur-replica.com/logo.png"
       }
     },
     "datePublished": post.date,

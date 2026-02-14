@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://jincjodhpur.com/sitemap.xml
+Sitemap: https://jinc-jodhpur-replica.com/sitemap.xml
