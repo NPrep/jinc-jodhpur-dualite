@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Layout } from './components/layout/Layout';
 import { Home } from './pages/Home';
 import { Courses } from './pages/Courses';
@@ -15,10 +15,15 @@ import { Blog } from './pages/Blog';
 import { BlogPost } from './pages/BlogPost';
 import { SubjectTests } from './pages/SubjectTests';
 import { MockTests } from './pages/MockTests';
+import { RouterWrapper } from './next/RouterWrapper';
 
-function App() {
+type AppProps = {
+  initialPath?: string;
+};
+
+function App({ initialPath = '/' }: AppProps) {
   return (
-    <BrowserRouter>
+    <RouterWrapper initialPath={initialPath}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -37,7 +42,7 @@ function App() {
           <Route path="vacancy-results" element={<VacancyResults />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </RouterWrapper>
   );
 }
 

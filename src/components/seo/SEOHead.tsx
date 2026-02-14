@@ -1,5 +1,6 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
+import { useLocation } from 'react-router-dom';
 
 interface SEOHeadProps {
   title: string;
@@ -22,11 +23,12 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   author,
   schema
 }) => {
-  const siteUrl = 'https://jinc-jodhpur-replica.com'; // Replace with actual domain
-  const fullCanonical = canonicalUrl ? `${siteUrl}${canonicalUrl}` : siteUrl;
+  const siteUrl = 'https://jincjodhpur.com';
+  const { pathname } = useLocation();
+  const fullCanonical = canonicalUrl ? `${siteUrl}${canonicalUrl}` : `${siteUrl}${pathname}`;
 
   return (
-    <Helmet>
+    <Head>
       {/* Basic Meta Tags */}
       <title>{title} | JINC Jodhpur</title>
       <meta name="description" content={description} />
@@ -57,6 +59,6 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
           ...schema
         })}
       </script>
-    </Helmet>
+    </Head>
   );
 };
