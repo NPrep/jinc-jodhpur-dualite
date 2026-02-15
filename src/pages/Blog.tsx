@@ -9,13 +9,13 @@ export const Blog = () => {
     "@type": "Blog",
     "name": "JINC Jodhpur Blog",
     "description": "Latest updates, exam strategies, and nursing career guidance from JINC Jodhpur.",
-    "url": "https://jinc-jodhpur-replica.com/blog",
+    "url": "https://jincjodhpur.com/blog",
     "publisher": {
       "@type": "Organization",
       "name": "JINC Jodhpur",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://jinc-jodhpur-replica.com/logo.png"
+        "url": "https://jincjodhpur.com/logo.png"
       }
     }
   };

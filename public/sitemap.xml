@@ -1,74 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Homepage -->
   <url>
-    <loc>https://jinc-jodhpur.com/</loc>
-    <lastmod>2026-02-11</lastmod>
+    <loc>https://jincjodhpur.com/</loc>
+    <lastmod>2026-02-15</lastmod>
     <priority>1.0</priority>
   </url>
-
-  <!-- Main Course & Service Pages -->
   <url>
-    <loc>https://jinc-jodhpur.com/courses/</loc>
-    <lastmod>2026-02-11</lastmod>
+    <loc>https://jincjodhpur.com/blog/</loc>
+    <lastmod>2026-02-15</lastmod>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://jinc-jodhpur.com/our-team/</loc>
-    <lastmod>2026-02-11</lastmod>
+    <loc>https://jincjodhpur.com/blog/aiims-salary-perks/</loc>
+    <lastmod>2026-02-15</lastmod>
     <priority>0.6</priority>
   </url>
-
   <url>
-    <loc>https://jinc-jodhpur.com/free-tests/</loc>
-    <lastmod>2026-02-11</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://jinc-jodhpur.com/join-batch/</loc>
-    <lastmod>2026-02-11</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://jinc-jodhpur.com/events/</loc>
-    <lastmod>2026-02-11</lastmod>
+    <loc>https://jincjodhpur.com/blog/cho-career-path/</loc>
+    <lastmod>2026-02-15</lastmod>
     <priority>0.6</priority>
   </url>
-
   <url>
-    <loc>https://jinc-jodhpur.com/offers/</loc>
-    <lastmod>2026-02-11</lastmod>
+    <loc>https://jincjodhpur.com/blog/dsssb-exam-pattern/</loc>
+    <lastmod>2026-02-15</lastmod>
     <priority>0.6</priority>
   </url>
-
-  <!-- Engagement & Support -->
   <url>
-    <loc>https://jinc-jodhpur.com/login/</loc>
-    <lastmod>2026-02-11</lastmod>
-    <priority>0.5</priority>
+    <loc>https://jincjodhpur.com/blog/esic-recruitment/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.6</priority>
   </url>
-
   <url>
-    <loc>https://jinc-jodhpur.com/contact/</loc>
-    <lastmod>2026-02-11</lastmod>
-    <priority>0.5</priority>
+    <loc>https://jincjodhpur.com/blog/mock-test-benefits/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Legal -->
   <url>
-    <loc>https://jinc-jodhpur.com/privacy-policy/</loc>
-    <lastmod>2026-02-11</lastmod>
-    <priority>0.3</priority>
+    <loc>https://jincjodhpur.com/blog/norcet-2026-preparation-strategy/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.6</priority>
   </url>
-
   <url>
-    <loc>https://jinc-jodhpur.com/terms-and-conditions/</loc>
-    <lastmod>2026-02-11</lastmod>
-    <priority>0.3</priority>
+    <loc>https://jincjodhpur.com/blog/rrb-nursing-officer-strategy/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.6</priority>
   </url>
-
+  <url>
+    <loc>https://jincjodhpur.com/blog/time-management-nurses/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/blog/top-books-nursing/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/courses/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/events/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/free-demo-content/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/freetest/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/join-batch/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/mock-tests/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/offers-alters/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/podcast/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/selected-nursing-officers/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/subject-tests/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jincjodhpur.com/vacancy-results/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
