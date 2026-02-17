@@ -8,11 +8,8 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-             {/* Logo in Footer */}
             <div className="mb-6">
-               <span className="text-3xl font-bold text-white">
-                JINC <span className="text-brand-pink">Jodhpur</span>
-              </span>
+              <span className="text-3xl font-bold text-white">Nursing Prep</span>
             </div>
             <div className="space-y-3 text-gray-300">
               <div className="flex items-start gap-3">
