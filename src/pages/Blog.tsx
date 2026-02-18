@@ -12,11 +12,7 @@ export const Blog = () => {
     "url": "https://jincjodhpur.com/blog",
     "publisher": {
       "@type": "Organization",
-      "name": "JINC Jodhpur",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://jincjodhpur.com/logo.png"
-      }
+      "name": "JINC Jodhpur"
     }
   };
 

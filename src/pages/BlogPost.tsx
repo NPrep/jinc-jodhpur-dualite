@@ -23,11 +23,7 @@ export const BlogPost = () => {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "JINC Jodhpur",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://jincjodhpur.com/logo.png"
-      }
+      "name": "JINC Jodhpur"
     },
     "datePublished": post.date,
     "description": post.excerpt

@@ -15,15 +15,10 @@ export const Navbar = () => {
     <nav className="bg-white shadow-sm border-b border-brand-border sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
-          {/* Logo */}
+          {/* Brand */}
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-brand-pink rounded-full flex items-center justify-center text-white font-bold text-xl">
-                J
-              </div>
-              <span className="text-2xl font-bold text-black tracking-tight">
-                JINC <span className="text-brand-pink">Jodhpur</span>
-              </span>
+            <Link to="/" className="text-2xl font-bold text-black tracking-tight">
+              Nursing Prep
             </Link>
           </div>
 

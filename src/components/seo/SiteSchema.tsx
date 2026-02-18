@@ -8,7 +8,6 @@ export const SiteSchema: React.FC = () => {
     "@type": "Organization",
     "name": site.name,
     "url": site.url,
-    "logo": `${site.url}${site.logoPath}`,
     "email": site.email
   };
 
