@@ -65,7 +65,7 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white border-t border-brand-border">
+        <div className="md:hidden nprep-mobile-drawer">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {siteContent.header.navItems.map((item) => (
               <Link
