@@ -18,7 +18,7 @@ export const Events = () => {
           {events.map((event, idx) => (
             <div key={idx} className="bg-white rounded-xl overflow-hidden shadow-md flex flex-col md:flex-row h-auto md:h-64 border border-brand-border">
               <div className="md:w-2/5 h-48 md:h-full">
-                <img src={event.image} alt="Event" className="w-full h-full object-cover" />
+                <img loading="lazy" src={event.image} alt="Event" className="w-full h-full object-cover" />
               </div>
               <div className="p-6 flex flex-col justify-center flex-1">
                 <span className="text-xs font-bold text-gray-400 tracking-wider mb-2">{event.brand}</span>

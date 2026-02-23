@@ -21,7 +21,7 @@ export const OurTeam = () => {
             {siteContent.team.members.map((member, idx) => (
               <div key={idx} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all group border border-brand-border">
                 <div className="aspect-[3/4] overflow-hidden relative">
-                  <img 
+                  <img loading="lazy" 
                     src={member.image} 
                     alt={member.name} 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

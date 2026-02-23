@@ -1,7 +1,7 @@
 import React from 'react';
 import { siteContent } from '../data/siteContent';
 import { Button } from '../components/ui/Button';
-import { BookOpen, Video, FileQuestion, Quote } from 'lucide-react';
+import { BookOpen, Video, FileQuestion } from 'lucide-react';
 import { SEOHead } from '../components/seo/SEOHead';
 
 export const Home = () => {
@@ -86,7 +86,7 @@ export const Home = () => {
         {/* Hindi Banner */}
         <section className="bg-brand-pink text-white py-16 relative overflow-hidden">
           <div className="absolute inset-0 opacity-20 mix-blend-multiply">
-            <img src={home.hindiBanner.image} alt="Background" className="w-full h-full object-cover" />
+            <img loading="lazy" src={home.hindiBanner.image} alt="Background" className="w-full h-full object-cover" />
           </div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             <h2 className="text-3xl md:text-5xl font-bold leading-tight">
@@ -117,29 +117,18 @@ export const Home = () => {
         </section>
 
         {/* Testimonials */}
-        <section className="py-16 bg-brand-light mb-12">
+        <section className="py-16 bg-[var(--bg-light)] mb-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-black">Why Students Choose JINC - Jodhpur</h2>
-              <div className="w-20 h-1 bg-brand-pink mx-auto mt-4 rounded-full"></div>
-            </div>
-            
-            <div className="grid md:grid-cols-3 gap-6">
-              {home.testimonials.map((t, idx) => (
-                <div key={idx} className="bg-white p-6 rounded-xl border border-brand-border relative shadow-sm">
-                  <Quote className="absolute top-4 right-4 text-brand-light w-8 h-8 fill-brand-pink" />
-                  <p className="text-brand-secondary mb-6 italic relative z-10">"{t.text}"</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-brand-pink rounded-full flex items-center justify-center text-white font-bold">
-                      {t.name[0]}
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-black text-sm">{t.name}</h4>
-                      <p className="text-xs text-brand-pink">{t.role}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
+            <div className="bg-[var(--bg-light)] p-12 text-center rounded-2xl border border-[var(--border)]">
+              <h2 className="text-3xl font-semibold text-[var(--text-primary)] mb-4">Hear from real students</h2>
+              <a
+                href="https://nprep.in/blogs?filter=NORCET+Success+Story"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-[var(--accent)] text-white px-6 py-3 rounded-lg hover:bg-[var(--accent-hover)]"
+              >
+                Read verified success stories on NPrep
+              </a>
             </div>
           </div>
         </section>

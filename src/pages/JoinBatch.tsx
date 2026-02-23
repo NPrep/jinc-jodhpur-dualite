@@ -32,7 +32,7 @@ export const JoinBatch = () => {
               <Button size="lg">Register for Offline Batch</Button>
             </div>
             <div className="h-64 md:h-auto bg-gray-200 relative">
-              <img 
+              <img loading="lazy" 
                 src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=1000" 
                 alt="Classroom" 
                 className="w-full h-full object-cover"
