@@ -16,8 +16,8 @@ export const Courses = () => {
       <div className="py-12 bg-brand-light min-h-screen">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-black">Our Courses</h1>
-            <p className="mt-4 text-brand-secondary">Choose the best program for your nursing career</p>
+            <h1 className="text-4xl font-bold text-black">Our Courses | हमारे कोर्स</h1>
+            <p className="mt-4 text-brand-secondary">Choose the best program for your nursing career with offline and online support.</p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">
@@ -30,6 +30,11 @@ export const Courses = () => {
                    <span className="inline-block mt-2 px-3 py-1 bg-white/20 rounded-full text-sm font-medium relative z-10">
                      {course.type}
                    </span>
+                   <div className="mt-3">
+                     <span className="inline-block px-3 py-1 bg-white text-brand-pink rounded-full text-xs font-bold relative z-10">
+                       {course.badge}
+                     </span>
+                   </div>
                 </div>
 
                 {/* Content */}
