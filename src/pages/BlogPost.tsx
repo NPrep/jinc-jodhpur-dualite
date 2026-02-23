@@ -50,7 +50,7 @@ export const BlogPost = () => {
 
           <article className="bg-white rounded-2xl shadow-sm border border-brand-border overflow-hidden">
             <div className="aspect-video w-full overflow-hidden">
-              <img 
+              <img loading="lazy" 
                 src={post.coverImage} 
                 alt={post.title} 
                 className="w-full h-full object-cover"

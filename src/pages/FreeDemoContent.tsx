@@ -5,7 +5,7 @@ export const FreeDemoContent = () => {
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <div className="flex-grow flex items-center justify-center p-4">
         <div className="w-full max-w-6xl aspect-[21/9] bg-gray-200 rounded-xl overflow-hidden shadow-inner flex items-center justify-center relative">
-            <img 
+            <img loading="lazy" 
                 src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=2000" 
                 alt="Demo Banner" 
                 className="absolute inset-0 w-full h-full object-cover opacity-50"

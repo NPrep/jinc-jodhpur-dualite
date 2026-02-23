@@ -31,6 +31,7 @@ export const siteContent = {
     },
     hindiBanner: {
       text: "नर्सिंग में करें OFFLINE-ONLINE STUDY JINC के साथ",
+      text: "à¤¨à¤°à¥à¤¸à¤¿à¤‚à¤— à¤®à¥‡à¤‚ à¤•à¤°à¥‡ OFFLINE-ONLINE STUDEY JINC à¤•à¥‡ à¤¸à¤¾à¤¥",
       image: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=2000",
     },
     features: [
@@ -65,6 +66,9 @@ export const siteContent = {
         metric: "Classroom Support",
         value: "Daily doubt clearing",
         note: "In-person doubt sessions and peer group study environment for disciplined preparation."
+        name: "Hear from real students",
+        role: "Verified outcomes",
+        text: "Read verified success stories on NPrep"
       }
     ],
     infrastructure: [
@@ -97,14 +101,14 @@ export const siteContent = {
     {
       title: "Special Offer",
       subtitle: "Hannu Sir Birthday",
-      description: "Achieve Your Nursing Goals with the Right Guidance – Enroll Today!",
+      description: "Achieve Your Nursing Goals with the Right Guidance â€“ Enroll Today!",
       buttonText: "BEGIN YOUR JOURNEY",
       link: "https://youtube.com"
     },
     {
       title: "Special Offer",
       subtitle: "Akki Sir Birthday",
-      description: "Achieve Your Nursing Goals with the Right Guidance – Enroll Today!",
+      description: "Achieve Your Nursing Goals with the Right Guidance â€“ Enroll Today!",
       buttonText: "Click Here for detail..",
       link: "https://youtube.com"
     },
@@ -118,7 +122,7 @@ export const siteContent = {
     {
       title: "Jinc Santa Surprise",
       subtitle: "A JINC Santa surprise, a lot of happiness",
-      description: "This Christmas, don't just celebrate—invest in your future Enroll in our courses at special Christmas offers and take the first step toward success.",
+      description: "This Christmas, don't just celebrateâ€”invest in your future Enroll in our courses at special Christmas offers and take the first step toward success.",
       buttonText: "Enroll Now",
       link: "https://youtube.com"
     },

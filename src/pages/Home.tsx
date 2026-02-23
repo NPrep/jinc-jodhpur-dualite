@@ -2,6 +2,7 @@ import React from 'react';
 import { siteContent } from '../data/siteContent';
 import { Button } from '../components/ui/Button';
 import { BookOpen, Video, FileQuestion, Building2, GraduationCap, Sparkles } from 'lucide-react';
+import { BookOpen, Video, FileQuestion } from 'lucide-react';
 import { SEOHead } from '../components/seo/SEOHead';
 
 export const Home = () => {
@@ -107,7 +108,7 @@ export const Home = () => {
         {/* Hindi Banner */}
         <section className="bg-brand-pink text-white py-16 relative overflow-hidden">
           <div className="absolute inset-0 opacity-20 mix-blend-multiply">
-            <img src={home.hindiBanner.image} alt="Background" className="w-full h-full object-cover" />
+            <img loading="lazy" src={home.hindiBanner.image} alt="Background" className="w-full h-full object-cover" />
           </div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             <h2 className="text-3xl md:text-5xl font-bold leading-tight">
@@ -175,6 +176,19 @@ export const Home = () => {
                   <p className="text-xs text-brand-pink font-medium mt-3">Profile details coming soon</p>
                 </div>
               ))}
+        {/* Testimonials */}
+        <section className="py-16 bg-[var(--bg-light)] mb-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-[var(--bg-light)] p-12 text-center rounded-2xl border border-[var(--border)]">
+              <h2 className="text-3xl font-semibold text-[var(--text-primary)] mb-4">Hear from real students</h2>
+              <a
+                href="https://nprep.in/blogs?filter=NORCET+Success+Story"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-[var(--accent)] text-white px-6 py-3 rounded-lg hover:bg-[var(--accent-hover)]"
+              >
+                Read verified success stories on NPrep
+              </a>
             </div>
           </div>
         </section>
