@@ -1,7 +1,7 @@
 import React from 'react';
 import { siteContent } from '../data/siteContent';
 import { Button } from '../components/ui/Button';
-import { BookOpen, Video, FileQuestion, Quote } from 'lucide-react';
+import { BookOpen, Video, FileQuestion, Building2, GraduationCap, Sparkles } from 'lucide-react';
 import { SEOHead } from '../components/seo/SEOHead';
 
 export const Home = () => {
@@ -46,37 +46,58 @@ export const Home = () => {
       />
       
       <div className="flex flex-col">
-        {/* Hero Section - Using Primary Background Pink */}
-        <section className="bg-brand-light py-12 lg:py-20">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-blue-700 via-blue-800 to-blue-950 py-12 lg:py-20 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
               <div className="flex-1 space-y-6 text-center lg:text-left">
-                <h2 className="text-brand-pink font-bold tracking-wide uppercase text-sm md:text-base">
+                <h2 className="text-blue-100 font-bold tracking-wide uppercase text-sm md:text-base">
                   {home.hero.heading}
                 </h2>
-                <h1 className="text-4xl md:text-6xl font-extrabold text-black leading-tight">
+                <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight">
                   {home.hero.title}
                 </h1>
-                <p className="text-lg text-brand-secondary leading-relaxed">
+                <p className="text-lg text-blue-50 leading-relaxed">
                   {home.hero.description}
                 </p>
+                <p className="text-base md:text-lg font-semibold text-blue-100">{home.hero.hybridModel}</p>
+                <p className="text-sm md:text-base font-medium text-blue-100">{siteContent.header.address}</p>
                 <div className="pt-4">
                   <a href="https://nprep.in/login" target="_blank" rel="noopener noreferrer">
-                    <Button size="lg" className="w-full sm:w-auto shadow-lg shadow-pink-200">
+                    <Button size="lg" className="w-full sm:w-auto shadow-lg shadow-blue-950/30">
                       {home.hero.cta}
                     </Button>
                   </a>
+                  <p className="mt-3 text-sm text-blue-100">Online classes powered by NPrep</p>
                 </div>
               </div>
               <div className="flex-1 w-full max-w-lg lg:max-w-none">
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] transform rotate-2 hover:rotate-0 transition-transform duration-500 border-4 border-white">
-                  <img 
-                    src={home.hero.image} 
-                    alt="Nursing Education" 
-                    className="w-full h-full object-cover"
-                    loading="eager"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] transform rotate-1 hover:rotate-0 transition-transform duration-500 border border-white/20 bg-white/10 backdrop-blur-sm flex flex-col justify-between p-8">
+                  <div className="inline-flex items-center gap-3 bg-white/10 border border-white/30 rounded-full px-4 py-2 w-fit">
+                    <div className="w-10 h-10 rounded-full bg-white text-blue-800 flex items-center justify-center font-extrabold">J</div>
+                    <div>
+                      <p className="font-bold">JINC Jodhpur</p>
+                      <p className="text-xs text-blue-100">Nursing Coaching Institute</p>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="rounded-xl bg-white/10 p-4 border border-white/20">
+                      <Building2 className="w-6 h-6 mb-2 text-blue-100" />
+                      <p className="font-semibold">Offline Center</p>
+                      <p className="text-sm text-blue-100">Jodhpur classroom batches</p>
+                    </div>
+                    <div className="rounded-xl bg-white/10 p-4 border border-white/20">
+                      <GraduationCap className="w-6 h-6 mb-2 text-blue-100" />
+                      <p className="font-semibold">Live Online</p>
+                      <p className="text-sm text-blue-100">NPrep-enabled classes</p>
+                    </div>
+                  </div>
+
+                  <div className="rounded-xl bg-blue-950/40 p-4 border border-white/20">
+                    <p className="font-semibold flex items-center gap-2"><Sparkles className="w-4 h-4" /> Focused Preparation</p>
+                    <p className="text-sm text-blue-100 mt-1">Structured daily plan for NORCET, AIIMS, CHO and major nursing competitive exams.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -99,7 +120,7 @@ export const Home = () => {
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-black">JINC-Jodhpur offers to you</h2>
+              <h2 className="text-3xl font-bold text-black">Why Choose JINC? | JINC क्यों चुनें?</h2>
               <div className="w-20 h-1 bg-brand-pink mx-auto mt-4 rounded-full"></div>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
@@ -116,28 +137,42 @@ export const Home = () => {
           </div>
         </section>
 
-        {/* Testimonials */}
+        {/* Outcomes */}
         <section className="py-16 bg-brand-light mb-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-black">Why Students Choose JINC - Jodhpur</h2>
+              <h2 className="text-3xl font-bold text-black">Student Outcomes | चयन परिणाम</h2>
               <div className="w-20 h-1 bg-brand-pink mx-auto mt-4 rounded-full"></div>
             </div>
             
             <div className="grid md:grid-cols-3 gap-6">
-              {home.testimonials.map((t, idx) => (
+              {home.outcomes.map((outcome, idx) => (
                 <div key={idx} className="bg-white p-6 rounded-xl border border-brand-border relative shadow-sm">
-                  <Quote className="absolute top-4 right-4 text-brand-light w-8 h-8 fill-brand-pink" />
-                  <p className="text-brand-secondary mb-6 italic relative z-10">"{t.text}"</p>
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-brand-pink rounded-full flex items-center justify-center text-white font-bold">
-                      {t.name[0]}
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-black text-sm">{t.name}</h4>
-                      <p className="text-xs text-brand-pink">{t.role}</p>
-                    </div>
-                  </div>
+                  <p className="text-xs uppercase tracking-wider text-brand-pink font-semibold mb-2">{outcome.metric}</p>
+                  <p className="text-2xl font-extrabold text-black mb-3">{outcome.value}</p>
+                  <p className="text-brand-secondary text-sm">{outcome.note}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Faculty Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-black">Meet Our Faculty | हमारे शिक्षक</h2>
+              <p className="mt-3 text-brand-secondary">Experienced mentors for classroom and online nursing preparation.</p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              {[1, 2, 3].map((item) => (
+                <div key={item} className="rounded-xl border border-brand-border p-6 bg-brand-light">
+                  <div className="w-20 h-20 rounded-full bg-brand-pink/20 text-brand-pink font-bold flex items-center justify-center mb-4">Photo</div>
+                  <h3 className="text-lg font-bold text-black">Faculty Name {item}</h3>
+                  <p className="text-sm text-brand-secondary mt-1">Qualification: M.Sc Nursing / Specialty certification</p>
+                  <p className="text-sm text-brand-secondary">Subject: Medical-Surgical Nursing</p>
+                  <p className="text-xs text-brand-pink font-medium mt-3">Profile details coming soon</p>
                 </div>
               ))}
             </div>

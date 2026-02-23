@@ -2,7 +2,7 @@ export const siteContent = {
   header: {
     phone: "+91 6377 6391 69",
     email: "",
-    address: "",
+    address: "📍 [Full address], Jodhpur, Rajasthan",
     navItems: [
       { label: "Home", path: "/" },
       { label: "Courses", path: "/courses" },
@@ -23,48 +23,48 @@ export const siteContent = {
   },
   home: {
     hero: {
-      heading: "India's Most trusted Online Nursing Education Platform",
+      heading: "India's Most Trusted Nursing Coaching Institute",
       title: "JINC - Jodhpur",
       description: "Complete NURSING Officer Coaching for AIIMS RRB | KGMU | PGIMER | ESIC | DSSSB | NIMHANS | Safdarjung | RML | All CHO | CRPF | BHU | GMCH | CISF | PB B.Sc/M.Sc (N) Entrance & Other Nursing Competitive Exams.",
+      hybridModel: "Offline batches at our Jodhpur center • Online batches via NPrep platform",
       cta: "JOIN NOW",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=2070",
     },
     hindiBanner: {
-      text: "नर्सिंग में करे OFFLINE-ONLINE STUDEY JINC के साथ",
+      text: "नर्सिंग में करें OFFLINE-ONLINE STUDY JINC के साथ",
       image: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=2000",
     },
     features: [
       {
         title: "Courses",
-        description: "India's most trusted Nursing Officer Preparation Platform with highest Selections in NORCET.",
+        description: "JINC + NPrep curriculum for Nursing Officer preparation with focused classroom mentoring at Jodhpur center.",
         icon: "BookOpen"
       },
       {
         title: "Live Classes",
-        description: "We teach in our building (gurukul) and online. Join the best suitable option for you as per your needs.",
+        description: "Attend interactive offline lectures at JINC Jodhpur or join live online sessions via NPrep, as per your schedule.",
         icon: "Video"
       },
       {
         title: "Test Series",
-        description: "Live tests with Ranks, Regular Mock Test and the practice test series designed by Full Time Nursing Faculties.",
+        description: "Practice with rank-based tests, in-person doubt sessions, and peer group study guidance by JINC faculty.",
         icon: "FileQuestion"
       }
     ],
-    testimonials: [
+    outcomes: [
       {
-        name: "JINC Student",
-        role: "Nursing Officer",
-        text: "JINC has transformed my career. The dedication of the faculty is unmatched. I cleared NORCET thanks to their guidance."
+        metric: "NORCET 2024 Results",
+        value: "Selection stats will be published soon",
+        note: "Verified institute-wise numbers are being compiled by JINC Jodhpur."
       },
       {
-        name: "Dips Dhodapkar",
-        role: "Student",
-        text: "The best platform for nursing competitive exams. The test series were extremely helpful for my preparation."
+        metric: "Hybrid Learning",
+        value: "Offline + Online",
+        note: "Structured classroom teaching in Jodhpur and live online support via NPrep platform."
       },
       {
-        name: "JINC Alumni",
-        role: "Staff Nurse",
-        text: "Highly recommended for anyone serious about a career in nursing. The offline batch atmosphere is very motivating."
+        metric: "Classroom Support",
+        value: "Daily doubt clearing",
+        note: "In-person doubt sessions and peer group study environment for disciplined preparation."
       }
     ],
     infrastructure: [
@@ -166,10 +166,12 @@ export const siteContent = {
     {
       title: "GOLD Batch",
       type: "Comprehensive",
+      badge: "Taught by JINC Faculty",
       price: "Best Value",
       link: "https://gold.nprep.in",
       features: [
         "NORCET 10 & 11/ CHO / BTSC/ KGMU/ GMCH - All Covered",
+        "In-person doubt sessions at JINC Jodhpur",
         "900 Hours - Basic to Advanced Theory (with Clinicals)",
         "100 Hrs - Rapid Revision 2.0",
         "30,000 Questions - QBank (Topic Wise)",
@@ -181,10 +183,12 @@ export const siteContent = {
     {
       title: "Rapid Revision 2.0",
       type: "Crash Course",
+      badge: "JINC + NPrep Curriculum",
       price: "Fast Track",
       link: "https://rapid.nprep.in",
       features: [
         "NORCET/ CHO/ BTSC/ KGMU/ GMCH - All Covered",
+        "Classroom study environment in offline revision batches",
         "Complete Nursing Syllabus in 100 Hours",
         "Previous Year Papers - with Explainations",
         "Daily Test Series",
@@ -195,10 +199,12 @@ export const siteContent = {
     {
       title: "Test Series",
       type: "Practice",
+      badge: "Taught by JINC Faculty",
       price: "Exam Ready",
       link: "https://qtestseries.nprep.in",
       features: [
         "30,000+ Questions - QBank(Topic Wise)",
+        "Peer group study and in-person performance review",
         "Each Question with Explaination",
         "Subject Wise Tests",
         "Daily Test Series",
