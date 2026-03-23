@@ -65,7 +65,7 @@ export const siteContent = {
       {
         metric: "Classroom Support",
         value: "Daily doubt clearing",
-        note: "In-person doubt sessions and peer group study environment for disciplined preparation."
+        note: "In-person doubt sessions and peer group study environment for disciplined preparation.",
         name: "Hear from real students",
         role: "Verified outcomes",
         text: "Read verified success stories on NPrep"
