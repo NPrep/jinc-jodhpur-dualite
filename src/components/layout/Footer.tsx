@@ -1,56 +1,38 @@
 import React from 'react';
-import { siteContent } from '../../data/siteContent';
-import { Phone } from 'lucide-react';
 
 export const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white pt-12 pb-6">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="nprep-disclaimer-banner">
-          Disclaimer: This is an independent educational portal and not an official government website. In association with NPrep.
+    <footer className="mt-14 bg-gradient-to-b from-pink-700 to-pink-900 text-pink-50">
+      <div className="max-w-7xl mx-auto px-4 py-10">
+        <div className="rounded-lg bg-white/10 border border-white/20 p-3 text-sm mb-8">
+          This is an independent institute information portal. Online preparation is available on NPrep.
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-          <div>
-            <div className="mb-6">
-              <span className="text-3xl font-bold text-white">Nursing Prep</span>
-            </div>
-            <div className="space-y-3 text-gray-300">
-              <div className="flex items-start gap-3">
-                <Phone className="w-5 h-5 mt-1 text-brand-pink flex-shrink-0" />
-                <a href={`tel:${siteContent.header.phone.replace(/\s+/g, "")}`} className="hover:text-brand-pink transition-colors">{siteContent.header.phone}</a>
-              </div>
-            </div>
-          </div>
-          
-          <div>
-            <h3 className="text-xl font-bold mb-4 text-brand-pink">Quick Links</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li><a href="/courses" className="hover:text-brand-pink transition-colors">Courses</a></li>
-              <li><a href="/freetest" className="hover:text-brand-pink transition-colors">PYQ</a></li>
-              <li><a href="/blog" className="hover:text-brand-pink transition-colors">Blog</a></li>
-              <li><a href="/subject-tests" className="hover:text-brand-pink transition-colors">Subject Tests</a></li>
-              <li><a href="/mock-tests" className="hover:text-brand-pink transition-colors">Mock Tests</a></li>
-            </ul>
-          </div>
 
+        <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-brand-pink">About Us</h3>
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">
-              JINC is India's premier nursing coaching institute, dedicated to shaping the future of nursing professionals with top-notch education and guidance.
+            <h3 className="font-bold text-xl">JINC Jodhpur</h3>
+            <p className="mt-2 text-pink-100 text-sm">
+              Nursing coaching institute information portal for students searching coaching options in Jodhpur.
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-4 text-brand-pink">Resources</h3>
-            <ul className="space-y-2 text-gray-300 text-sm">
-              <li><a href="https://nprep.in/blogs?filter=NORCET+Success+Story" target="_blank" rel="noopener noreferrer" className="hover:text-brand-pink transition-colors">Success stories</a></li>
-              <li><a href="https://nprep.in" target="_blank" rel="noopener noreferrer" className="hover:text-brand-pink transition-colors">In association with NPrep</a></li>
+            <h3 className="font-bold text-xl">Popular Pages</h3>
+            <ul className="mt-2 text-sm space-y-2">
+              <li><a className="hover:underline" href="/nursing-coaching-jodhpur">Nursing Coaching in Jodhpur</a></li>
+              <li><a className="hover:underline" href="/norcet-coaching-jodhpur">NORCET Coaching in Jodhpur</a></li>
+              <li><a className="hover:underline" href="/rrb-nursing-coaching-jodhpur">RRB Nursing Coaching in Jodhpur</a></li>
+              <li><a className="hover:underline" href="/student-experience">Student Experience</a></li>
             </ul>
           </div>
-        </div>
-        
-        <div className="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-400 text-sm">© 2026 All Rights Reserved</p>
+
+          <div>
+            <h3 className="font-bold text-xl">Online Preparation</h3>
+            <p className="mt-2 text-sm text-pink-100">Students can continue online learning at NPrep.</p>
+            <a className="inline-block mt-3 rounded-full bg-white text-pink-700 px-4 py-2 font-semibold hover:bg-pink-50" href="https://nprep.in" target="_blank" rel="noopener noreferrer">
+              Start Learning on NPrep
+            </a>
+          </div>
         </div>
       </div>
     </footer>
