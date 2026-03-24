@@ -30,7 +30,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   return (
     <Head>
       {/* Basic Meta Tags */}
-      <title>{title} | JINC Jodhpur</title>
+      <title>{`${title} | JINC Jodhpur`}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={fullCanonical} />
 
