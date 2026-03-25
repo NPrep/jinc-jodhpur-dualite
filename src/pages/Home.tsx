@@ -2,7 +2,6 @@ import React from 'react';
 import { siteContent } from '../data/siteContent';
 import { Button } from '../components/ui/Button';
 import { BookOpen, Video, FileQuestion, Building2, GraduationCap, Sparkles } from 'lucide-react';
-import { BookOpen, Video, FileQuestion } from 'lucide-react';
 import { SEOHead } from '../components/seo/SEOHead';
 
 export const Home = () => {
