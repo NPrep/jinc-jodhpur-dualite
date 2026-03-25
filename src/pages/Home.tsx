@@ -176,6 +176,10 @@ export const Home = () => {
                   <p className="text-xs text-brand-pink font-medium mt-3">Profile details coming soon</p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
         {/* Testimonials */}
         <section className="py-16 bg-[var(--bg-light)] mb-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
