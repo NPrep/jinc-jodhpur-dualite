@@ -16,8 +16,13 @@ export const Footer = () => {
             </div>
             <div className="space-y-3 text-gray-300">
               <div className="flex items-start gap-3">
-                <Phone className="w-5 h-5 mt-1 text-brand-pink flex-shrink-0" />
-                <a href={`tel:${siteContent.header.phone.replace(/\s+/g, "")}`} className="hover:text-brand-pink transition-colors">{siteContent.header.phone}</a>
+                <a
+                  href={`tel:${siteContent.header.phone.replace(/\s+/g, "")}`}
+                  className="inline-flex items-center gap-3 rounded-full bg-white/10 px-4 py-2 font-semibold text-white ring-1 ring-white/10 transition-colors hover:bg-white/15 hover:text-brand-pink"
+                >
+                  <Phone className="w-5 h-5 flex-shrink-0 text-brand-pink" />
+                  <span>{siteContent.header.phone}</span>
+                </a>
               </div>
             </div>
           </div>
